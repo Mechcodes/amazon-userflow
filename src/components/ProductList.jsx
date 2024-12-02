@@ -1,5 +1,5 @@
 import React from 'react';
-import products from '../data/Products.jsx';
+import products from '../data/Products.js';
 
 const ProductList = ({ onAddToCart }) => (
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
